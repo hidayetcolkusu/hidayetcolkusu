@@ -67,6 +67,10 @@ I actively use AI-assisted development workflows to improve software engineering
   <a href="https://www.linkedin.com/in/hidayetcolkusu">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  <a href="https://hidayetcolkusu.com">
+    <img src="https://img.shields.io/badge/Website-hidayetcolkusu.com-24292F?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+
   <p>📍 Istanbul, Türkiye</p>
 </div>
 
