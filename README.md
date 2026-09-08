@@ -10,7 +10,7 @@
 I’m a **Senior .NET Software Developer with 10+ years of experience**, focused on enterprise applications, system architecture, integrations, and production-ready software.
 
 - 🚀 **WholeSales:** Designed and developed from scratch an enterprise B2B platform used by **3,000+ users across 7 Karaca Group companies**.
-- 🏬 **Enterprise Retail:** Developed new screens and features for an enterprise retail application used across **1,000+ stores**, and contributed to the analysis and resolution of production issues.
+- 🏬 **Enterprise Retail:** Developed new screens and features for an enterprise retail application used across **1,000+ stores**, and contributed to the analysis and resolution of production issues and operational incidents.
 - 🏗️ **End-to-End Ownership:** Architecture, backend, frontend, database, authentication/authorization, logging, integrations, deployment, and production support.
 - 💰 **Budget Planning:** Independently designed and developed a centralized corporate budget planning system.
 - 🔌 **Enterprise Integrations:** Experience with **SAP, Mikro ERP, internal services, Redis, Elasticsearch, RabbitMQ**, and device communication systems.
