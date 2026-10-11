@@ -1,79 +1,129 @@
-<div align="center">
-  <h1>Hi, I'm Hidayet Raşit Çölkuşu 👋</h1>
-  <p><strong>Senior .NET Software Developer | Enterprise Applications | AI-Assisted Development</strong></p>
-</div>
+# Hi, I'm Hidayet Raşit Çölkuşu 👋
+
+**Senior .NET Software Developer | Backend Engineering | Enterprise & Distributed Systems**
+
+📍 Istanbul, Türkiye · 10+ Years of Software Development Experience
+
+[LinkedIn](https://www.linkedin.com/in/hidayetcolkusu) · [Portfolio & Blog](https://hidayetcolkusu.com)
 
 ---
 
-### 💼 Professional Experience
+## 👨‍💻 About Me
 
-I’m a **Senior .NET Software Developer with 10+ years of experience**, focused on enterprise applications, system architecture, integrations, and production-ready software.
+I'm a **Senior .NET Software Developer with 10+ years of professional experience**, specializing in C#/.NET, enterprise backend development, system architecture, database engineering, and integrations.
 
-- 🚀 **WholeSales:** Designed and developed from scratch an enterprise B2B platform used by **3,000+ users across 7 Karaca Group companies**.
-- 🏬 **Enterprise Retail:** Developed new screens and features for an enterprise retail application used across **1,000+ stores**, and contributed to the analysis and resolution of production issues and operational incidents.
-- 🏗️ **End-to-End Ownership:** Architecture, backend, frontend, database, authentication/authorization, logging, integrations, deployment, and production support.
-- 💰 **Budget Planning:** Independently designed and developed a centralized corporate budget planning system.
-- 🔌 **Enterprise Integrations:** Experience with **SAP, Mikro ERP, internal services, Redis, Elasticsearch, RabbitMQ**, and device communication systems.
+I have designed and developed business-critical applications from the ground up, taking end-to-end responsibility for architecture, APIs, databases, authentication, integrations, deployment, and production support.
+
+My professional experience includes:
+
+- **Enterprise B2B:** Designed and developed WholeSales from scratch, serving **3,000+ users across 7 Karaca Group companies**.
+- **Retail Systems:** Developed and maintained enterprise retail applications used across **1,000+ stores**, including production troubleshooting and operational support.
+- **Budget Planning:** Independently designed and developed a centralized corporate budget planning application.
+- **Enterprise Integrations:** Integrated applications with SAP, Mikro ERP, internal enterprise services, and external systems.
+
+I focus on building software that is **reliable, maintainable, measurable, and adaptable to real business requirements**.
+
+## 🚀 Featured Engineering Projects
+
+Three independent .NET engineering projects demonstrating backend architecture, reliability, and performance through reproducible tests and documented technical decisions.
+
+### 🔄 [Reliable Integration Lab](https://github.com/hidayetcolkusu/dotnet-reliable-integration-lab)
+
+**Distributed Systems · Reliability Engineering · Messaging**
+
+A .NET 10 laboratory exploring how to deliver business operations reliably across database, message broker, and external HTTP boundaries.
+
+**Engineering focus:**
+- Transactional Outbox and Durable Inbox
+- RabbitMQ publisher confirms and duplicate delivery
+- Idempotency, retry policies, lease ownership, and dead-letter handling
+- Failure recovery and distributed tracing
+- Integration testing with real SQL Server and RabbitMQ containers
+
+**Verification:** 189 passing tests, GitHub Actions CI, and documented failure scenarios.
+
+[Explore Repository](https://github.com/hidayetcolkusu/dotnet-reliable-integration-lab) · [Read Technical Article](https://hidayetcolkusu.com/tr/blog/bir-is-kaydi-veritabanina-yazildi-ama-mesaj-broker-i-kapaliysa-ne-olur)
+
+### 📊 [Data Performance Lab](https://github.com/hidayetcolkusu/dotnet-data-performance-lab)
+
+**SQL Server · EF Core · Performance Engineering**
+
+A .NET 10 laboratory for evaluating database and caching optimizations through controlled experiments and reproducible measurements.
+
+**Engineering focus:**
+- SQL Server execution plans and covering indexes
+- EF Core query optimization and projection
+- Redis cache-aside and workload-dependent performance
+- k6 load testing and repeatable measurement protocols
+- Atomic, resumable CSV imports
+
+**Verified laboratory results:**
+- Covering index: **45.5 ms → 1.3 ms**
+- Logical reads: **35,218 → 6**
+- SQL projection: **2.5 ms → 1.4 ms**
+- Redis cache: **4.71 ms → 7.69 ms p95** in the measured workload
+
+**Verification:** 185 unit tests, 106 integration tests, GitHub Actions CI, and published measurement artifacts.
+
+[Explore Repository](https://github.com/hidayetcolkusu/dotnet-data-performance-lab)
+
+### 🏢 [B2B Ordering Case Study](https://github.com/hidayetcolkusu/dotnet-b2b-ordering-case-study)
+
+**Enterprise Architecture · Security · Data Consistency**
+
+An independent .NET 10 case study examining critical architectural boundaries in multi-tenant enterprise B2B applications.
+
+**Engineering focus:**
+- Multi-tenant authentication and authorization
+- Tenant isolation at API and database levels
+- Idempotent order creation under concurrent requests
+- Company-specific pricing and immutable order snapshots
+- Database schema evolution and migration compatibility
+- Modular application architecture
+
+**Verification:** 116 passing tests against real SQL Server, including concurrent requests, cross-tenant isolation, and migration compatibility scenarios.
+
+[Explore Repository](https://github.com/hidayetcolkusu/dotnet-b2b-ordering-case-study)
+
+> **Note:** These repositories are independent engineering laboratories and case studies built with synthetic data. They are separate from my professional employer systems. Test results and benchmarks describe their documented environments, not production workloads.
 
 ---
 
-### 🤖 AI & Agentic Development
+## 🛠 Technical Expertise
 
-I actively use AI-assisted development workflows to improve software engineering productivity, codebase understanding, and implementation quality.
+| Area | Technologies & Practices |
+|---|---|
+| **Backend** | C#, .NET, ASP.NET Core, ASP.NET MVC, REST APIs |
+| **Data & Search** | SQL Server, T-SQL, Entity Framework, EF Core, Redis, Elasticsearch |
+| **Messaging & Integration** | RabbitMQ, Transactional Outbox, Idempotency, SAP, ERP Integrations |
+| **Architecture** | Layered Architecture, Modular Design, Authentication & Authorization, Distributed Systems |
+| **Testing & Delivery** | Git, GitHub Actions, CI/CD, Integration Testing, Testcontainers, Docker |
+| **Performance & Operations** | Query Optimization, Execution Plans, Observability, Logging, Performance Measurement |
+| **Frontend** | JavaScript, jQuery, HTML, CSS |
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Agentic Coding</strong><br>
-      AI-assisted implementation, refactoring, code review, and technical research workflows.
-    </td>
-    <td width="33%" valign="top">
-      <strong>MCP & Context Tools</strong><br>
-      Context-aware development using MCP-based tools, Serena, and Context Mode.
-    </td>
-    <td width="33%" valign="top">
-      <strong>Structured Workflows</strong><br>
-      Planning and development workflows with tools such as Superpowers.
-    </td>
-  </tr>
-</table>
+## 🤖 AI-Assisted Development
 
----
+I use AI-assisted and agentic development workflows for codebase exploration, technical research, implementation, refactoring, and code review.
 
-### 🛠 Tech Stack
+My approach emphasizes **engineering ownership, reproducible verification, and reviewing AI-generated changes**, rather than treating generated code as automatically correct.
 
-<div align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/.NET%2010-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</div>
+Tools and approaches include Codex, MCP-based development tools, and context-aware coding workflows.
+
+## 🌱 Additional Project
+
+**Flowia — Workflow Automation & AI Orchestration**
+
+A personal SaaS project focused on workflow automation, modular backend architecture, and AI agent orchestration.
+
+**Technologies:** Python, FastAPI, Next.js, TypeScript, PostgreSQL, LangGraph.
 
 ---
 
-### 🚀 Personal Project
+## 🤝 Connect
 
-- **Flowia:** Workflow automation & AI orchestration platform built with **Python, FastAPI, Next.js, TypeScript, PostgreSQL, and LangGraph**.
+I'm interested in **Senior .NET Developer, Senior Backend Engineer, and Senior Software Engineer** opportunities involving enterprise applications, distributed systems, integrations, and performance engineering.
 
----
+- [Professional Portfolio & Technical Blog](https://hidayetcolkusu.com)
+- [LinkedIn Profile](https://www.linkedin.com/in/hidayetcolkusu)
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/hidayetcolkusu">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://hidayetcolkusu.com">
-    <img src="https://img.shields.io/badge/Website-hidayetcolkusu.com-24292F?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-
-  <p>📍 Istanbul, Türkiye</p>
-</div>
-
-<p align="center">
-  <em>"Build software that is maintainable, scalable, and useful in the real world."</em>
-</p>
+*Building reliable software, making engineering decisions measurable, and solving real business problems.*
